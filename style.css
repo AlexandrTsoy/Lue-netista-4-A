@@ -1,0 +1,39 @@
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.answer-button {
+margin: 10px;
+width: 200px;
+height: 200px; 
+border: none;
+background: none;
+flex: 0 0 calc(25% - 20px);
+object-fit: contain;
+}
+
+body {
+margin: 3%;
+}
+
+.card {
+    align-items: center;
+}
+
+.card-img-top {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.img-fluid {
+    width: 150px;
+    height: 150px;
+    margin: 3%;
+}
+
+#restart-button {
+display: none;
+}
